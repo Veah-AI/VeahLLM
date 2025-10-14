@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# Data
+data/**/*.json
+data/**/*.jsonl
+!data/datasets.json
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment
+.env
+.env.local
+
+# Cache
+.cache/
+*.cache
+
+# Documentation build
+docs/_build/
+
+# Temporary
+tmp/
+temp/
+*.tmp

@@ -1,0 +1,37 @@
+# VEAH LLM Configuration
+
+model:
+  name: veah-7b
+  architecture: transformer
+  hidden_size: 4096
+  num_layers: 32
+  num_heads: 32
+  vocab_size: 50432
+  max_position_embeddings: 32768
+  rope_theta: 10000.0
+
+training:
+  batch_size: 4
+  gradient_accumulation_steps: 8
+  learning_rate: 2e-5
+  warmup_steps: 1000
+  num_epochs: 3
+  fp16: true
+  gradient_checkpointing: true
+
+dataset:
+  train_path: data/solana_docs
+  validation_split: 0.1
+  max_seq_length: 2048
+  tokenizer: solana-tokenizer
+
+inference:
+  temperature: 0.7
+  top_p: 0.95
+  max_new_tokens: 512
+  repetition_penalty: 1.1
+
+solana_specific:
+  enable_blockchain_attention: true
+  transaction_embedding_dim: 256
+  program_vocab_size: 5000

@@ -1,0 +1,41 @@
+{
+  "datasets": [
+    {
+      "name": "solana_docs",
+      "source": "docs.solana.com",
+      "tokens": 15000000,
+      "last_updated": "2024-01-15",
+      "description": "Official Solana documentation"
+    },
+    {
+      "name": "spl_tokens",
+      "source": "spl.solana.com",
+      "tokens": 5000000,
+      "last_updated": "2024-01-10",
+      "description": "SPL token program documentation and examples"
+    },
+    {
+      "name": "defi_protocols",
+      "source": "Various DeFi protocols",
+      "tokens": 25000000,
+      "last_updated": "2024-01-12",
+      "description": "Raydium, Orca, Jupiter, Marinade documentation"
+    },
+    {
+      "name": "transactions",
+      "source": "Solana mainnet",
+      "tokens": 100000000,
+      "last_updated": "2024-01-20",
+      "description": "500M+ decoded mainnet transactions"
+    },
+    {
+      "name": "anchor_programs",
+      "source": "GitHub",
+      "tokens": 50000000,
+      "last_updated": "2024-01-18",
+      "description": "10,000+ open-source Anchor programs"
+    }
+  ],
+  "total_tokens": 195000000,
+  "version": "1.0.0"
+}

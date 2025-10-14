@@ -1,0 +1,67 @@
+# Core ML/DL dependencies
+torch>=2.1.0
+transformers>=4.36.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+peft>=0.7.0  # For LoRA fine-tuning
+datasets>=2.15.0
+tokenizers>=0.15.0
+
+# Inference optimization
+vllm>=0.2.6  # Fast inference
+flash-attn>=2.4.0  # Flash attention
+triton>=2.1.0  # Kernel compilation
+
+# API and serving
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+websockets>=12.0
+
+# Solana specific
+solana>=0.30.0
+anchorpy>=0.18.0
+base58>=2.1.1
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.1.0
+pyarrow>=14.0.0
+jsonlines>=4.0.0
+
+# Training utilities
+wandb>=0.16.0  # Weights & Biases for tracking
+tensorboard>=2.15.0
+tqdm>=4.66.0
+omegaconf>=2.3.0
+hydra-core>=1.3.0
+
+# Evaluation
+scikit-learn>=1.3.0
+rouge-score>=0.1.2
+nltk>=3.8.0
+bert-score>=0.3.13
+
+# RAG components
+faiss-cpu>=1.7.4  # Vector database
+chromadb>=0.4.0  # Alternative vector store
+langchain>=0.0.350
+openai>=1.0.0  # For embeddings
+
+# Development tools
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.7.0
+pre-commit>=3.5.0
+
+# Notebook support
+jupyter>=1.0.0
+ipywidgets>=8.1.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# System monitoring
+psutil>=5.9.0
+gpustat>=1.1.0
+py3nvml>=0.2.7
