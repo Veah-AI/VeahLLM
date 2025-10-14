@@ -208,8 +208,7 @@ Please include attribution to VEAH LLM when deploying derived works.
 ## 🔗 Resources
 
 - 💻 **GitHub:** [github.com/veah-ai/veah-llm](https://github.com/veah-ai/veah-llm)
-- 🤗 **Hugging Face:** [huggingface.co/veah-ai](https://huggingface.co/veah-ai)
-- 📚 **Paper:** [arxiv.org/abs/2024.veah](https://arxiv.org) (coming soon)
+- 📚 **Paper:** [https://veah.gitbook.io/veah-docs/](https://veah.gitbook.io) (coming soon)
 - 🐦 **Twitter/X:** [@veahllm](https://twitter.com/veahllm)
 
 ---
